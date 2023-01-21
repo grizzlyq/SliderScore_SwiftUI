@@ -11,6 +11,7 @@
 		897A24DC297C799C00179D1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A24DB297C799C00179D1F /* ContentView.swift */; };
 		897A24DE297C799E00179D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897A24DD297C799E00179D1F /* Assets.xcassets */; };
 		897A24E1297C799E00179D1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897A24E0297C799E00179D1F /* Preview Assets.xcassets */; };
+		897A24E8297C79C200179D1F /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A24E7297C79C200179D1F /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		897A24DB297C799C00179D1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		897A24DD297C799E00179D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		897A24E0297C799E00179D1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		897A24E7297C79C200179D1F /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		897A24D8297C799C00179D1F /* SliderScore_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				897A24D9297C799C00179D1F /* SliderScore_SwiftUIApp.swift */,
 				897A24DB297C799C00179D1F /* ContentView.swift */,
+				897A24D9297C799C00179D1F /* SliderScore_SwiftUIApp.swift */,
+				897A24E7297C79C200179D1F /* SliderView.swift */,
 				897A24DD297C799E00179D1F /* Assets.xcassets */,
 				897A24DF297C799E00179D1F /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				897A24E8297C79C200179D1F /* SliderView.swift in Sources */,
 				897A24DC297C799C00179D1F /* ContentView.swift in Sources */,
 				897A24DA297C799C00179D1F /* SliderScore_SwiftUIApp.swift in Sources */,
 			);
