@@ -53,9 +53,11 @@ extension SliderView {
         }
     }
     
-    struct SliderView_Previews: PreviewProvider {
-        static var previews: some View {
-            SliderView(sliderValue: .constant(50), color: .blue, alpha: 100)
-        }
+    
+}
+
+struct SliderView_Previews: PreviewProvider {
+    static var previews: some View {
+        SliderView(sliderValue: .constant(50), color: .blue, alpha: 100)
     }
 }
